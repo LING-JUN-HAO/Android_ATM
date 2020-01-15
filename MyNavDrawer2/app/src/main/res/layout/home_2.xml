@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_marginLeft="40pt"
+        android:layout_marginTop="3pt"
+        android:layout_marginBottom="3pt"
+        android:background="@drawable/button_style"
+        android:text="第一校區"
+        android:textColor="@color/colorwhite" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_marginLeft="40pt"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/button_style2"
+        android:text="燕巢校區"
+        android:textColor="@color/colorwhite" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_marginLeft="40pt"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/button_style3"
+        android:text="建工校區"
+        android:textColor="@color/colorwhite" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_marginLeft="40pt"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/button_style4"
+        android:text="旗津校區"
+        android:textColor="@color/colorwhite" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_marginLeft="40pt"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/button_style5"
+        android:text="楠梓校區"
+        android:textColor="@color/colorwhite" />
+
+    <TextView
+        android:id="@+id/button1_1text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:layout_marginTop="-260pt"
+        android:paddingTop="2pt"
+        android:text="@string/button1_1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/button1_2_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:paddingTop="2pt"
+        android:text="@string/button1_2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/button1_3_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:paddingTop="2pt"
+        android:text="@string/button1_3"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/button2_1_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:layout_marginTop="14pt"
+        android:paddingTop="2pt"
+        android:text="@string/button2_1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/button2_2_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:paddingTop="2pt"
+        android:text="@string/button2_2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/button2_3_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:paddingTop="2pt"
+        android:text="@string/button2_3"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/button3_1_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:layout_marginTop="14pt"
+        android:paddingTop="2pt"
+        android:text="@string/button3_1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/button3_2_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:paddingTop="2pt"
+        android:text="@string/button3_2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/button3_3_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:paddingTop="2pt"
+        android:text="@string/button3_3"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/button4_1_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:layout_marginTop="14pt"
+        android:paddingTop="2pt"
+        android:text="@string/button4_1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/button4_2_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:paddingTop="2pt"
+        android:text="@string/button4_2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/button4_3_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:paddingTop="2pt"
+        android:text="@string/button4_3"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/button5_1_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:layout_marginTop="14pt"
+        android:paddingTop="2pt"
+        android:text="@string/button5_1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/button5_2_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:paddingTop="2pt"
+        android:text="@string/button5_2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/button5_3_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:paddingTop="2pt"
+        android:text="@string/button5_3"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

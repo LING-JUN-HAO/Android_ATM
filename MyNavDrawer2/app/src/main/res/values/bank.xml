@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bankname">
+        <item>中華郵政</item>
+        <item>玉山銀行</item>
+        <item>彰化銀行</item>
+        <item>台灣銀行</item>
+        <item>臺灣土地銀行</item>
+    </array>
+</resources>

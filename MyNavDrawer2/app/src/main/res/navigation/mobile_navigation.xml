@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mynavdrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_deposit"
+        android:name="com.example.mynavdrawer.ui.deposit.DepositFragment"
+        android:label="@string/menu_deposit"
+        tools:layout="@layout/fragment_deposit" />
+
+    <fragment
+        android:id="@+id/nav_withdrawal"
+        android:name="com.example.mynavdrawer.ui.withdrawal.WithdrawalFragment"
+        android:label="@string/menu_withdrawal"
+        tools:layout="@layout/fragment_withdrawal" />
+
+    <fragment
+        android:id="@+id/nav_balance"
+        android:name="com.example.mynavdrawer.ui.balance.BalanceFragment"
+        android:label="@string/menu_balance"
+        tools:layout="@layout/fragment_balance" />
+
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="com.example.mynavdrawer.ui.payment.PaymentFragment"
+        android:label="@string/menu_payment"
+        tools:layout="@layout/fragment_payment" />
+
+    <fragment
+        android:id="@+id/nav_transfer"
+        android:name="com.example.mynavdrawer.ui.transfer.TransferFragment"
+        android:label="@string/menu_transfer"
+        tools:layout="@layout/fragment_transfer" />
+    <fragment
+        android:id="@+id/nav_paymentdetail"
+        android:name="com.example.mynavdrawer.ui.record.RecordFragment"
+        android:label="@string/menu_paymentdetail"
+        tools:layout="@layout/fragment_pyamentdetail" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.mynavdrawer.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>

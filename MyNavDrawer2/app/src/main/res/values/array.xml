@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="paymentitem">
+        <item>水費</item>
+        <item>電費</item>
+        <item>電話費</item>
+        <item>瓦斯費</item>
+    </array>
+</resources>
